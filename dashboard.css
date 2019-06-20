@@ -21,28 +21,36 @@ ul {
     padding:16px 18px;
     text-decoration: none;
     font-size: 22px; 
-    margin-right: -20px;
+    margin-left: -30px;
     margin-top: 20px;
+    text-align: center;
   
   }
   
   li a.active {
     background-color: #6FA5CF;
     color: white;
+    margin-left: -30px;
+    margin-right: 5px;
+  
   }
   
   li a:hover:not(.active) {
     background-color: #B2D7F4;
     color: black;
-    padding: 15px 15px;
+    margin-left: -30px;
+    margin-right: 5px;
+  
     
   }
   .navbar{
 
     width: 85%;
     height: 12%;
-    background-color:#042C50;
-    opacity: 0.7;
+    background-image: url(sitebar.jpg);
+    display: block;
+    background-size: cover;
+    opacity: 0.8;
     float: left;
   }
   .navbarleft{
@@ -52,12 +60,10 @@ ul {
       float: left;
   }
   
-  
-   
  
   .dropdown{
       float: right;;
-    background-image: url(profile.jpg);
+    background-image: url(profile.png);
     background-size: cover;
     display: block;
     height: 30px;
@@ -95,13 +101,17 @@ ul {
    
   }
   
-  .dropdown-content a:hover {background-color: #f1f1f1}
+  .dropdown-content a:hover {background-color: #B2D7F4}
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
   
-  .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-  }
+  
+  .container{ 
+    text-align: center;
+        width:400px;
+        margin:0 auto;
+        margin-top:5%;
+    }
  
