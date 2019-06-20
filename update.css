@@ -8,9 +8,10 @@
 }
 .formulaireright{
     float: right;
-        width:600px;
+        width:500px;
         margin:0 auto;
-        padding-top: 5%;
+        padding-top: 10px;
+        
         color:  #042C50;;
     
 }
